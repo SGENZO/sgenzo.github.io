@@ -222,7 +222,7 @@ collections:
     permalink: /:collection/:path/
   publications:
     # Keep output true so the collection is populated and can be listed.
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
     output: false
