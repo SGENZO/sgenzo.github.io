@@ -221,8 +221,8 @@ collections:
     output: false
     permalink: /:collection/:path/
   publications:
-    # Set output to false so individual publication detail pages are not generated.
-    output: false
+    # Keep output true so the collection is populated and can be listed.
+    output: true
     permalink: /:collection/:path/
   portfolio:
     output: false
