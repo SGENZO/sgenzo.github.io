@@ -11,35 +11,28 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Fundamental Mathematics, Institute of Applied Physics and Computational Mathematics, 2026 (expected)
+* Exchange Student, Georgia Institute of Technology, 2020
+* B.S. in Mathematics, Taishan College, Shandong University, 2021 
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Research Interests & Experience
+=====
+My research focuses on machine learning methods for multi-scale modeling, especially in quantum many-body physics and ultrafast dynamics.
+* Developed machine learning potentials to simulate dynamic mechanical response of materials under extreme conditions.
+* Proposed a neural network framework for solving the time-dependent Schrödinger equation in real space.
+* Familiar with deep learning techniques such as physics-informed neural networks (PINNs), graph neural networks (GNNs), and generative models. 
+* Familiar with quantum chemistry simulation methods, including traditional methods like Hartree-Fock (HF), Full Configuration Interaction (FCI), and machine learning based methods like FermiNet. 
+* Current research: machine learning modeling of ultrafast dynamics in quantum many-body systems.
+* Broader interests: Monte Carlo methods, scientific computing, uncertainty quantification.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages: Python, C, MATLAB.
+* Scientific Computing: Quantum chemistry packages (PySCF), Machine learning frameworks (PyTorch, JAX), DFT software (VASP, ABACUS), Visualization tools (OVITO).
+* Computing Environment: Linux, Git, HPC clusters, Shell scripting.
+
 
 Publications
 ======
@@ -47,11 +40,11 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Teaching
 ======
@@ -59,6 +52,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<!-- Service and leadership -->
+<!-- ====== -->
+<!-- * Currently signed in to 43 different slack teams -->
