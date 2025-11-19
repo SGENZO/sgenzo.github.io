@@ -2,6 +2,7 @@
 title: "Revealing the dynamic responses of Pb under shock loading based on DFT-accuracy"
 collection: publications
 category: manuscripts
+# permalink: /publication/2025-10-24-pb-shock-loading-dft-accuracy
 date: 2025-10-24
 venue: "Chinese Physics B"
 paperurl: "https://doi.org/10.1088/1674-1056/ae1726"
