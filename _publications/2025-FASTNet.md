@@ -2,7 +2,7 @@
 title: "A Global Spacetime Optimization Approach to the Real-Space Time-Dependent Schrödinger Equation"
 collection: publications
 category: manuscripts
-date: 2025
+date: 2025-11-17
 venue: "Preprint"
 paperurl: "https://arxiv.org/abs/2511.12983"
 authors: "Enze Hou, Yuzhi Liu, Lei Wang*, Han Wang*"
