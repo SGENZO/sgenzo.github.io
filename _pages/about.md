@@ -16,4 +16,4 @@ I am very fortunate to be advised by [Prof. Han Wang](http://www.wanghan-iapcm.c
 
 You can find my CV here: [Enze Hou's Curriculum Vitae](../assets/CV.pdf).
 
-[Email](houenze21@gscaep.ac.cn) /[ORCID](https://orcid.org/0009-0002-4185-3838) / [Github](https://github.com/SGENZO) / [Wechat](../images/wechat.jpg) / 
+[Email](houenze21@gscaep.ac.cn) /[ORCID](https://orcid.org/0009-0002-4185-3838) / [Github](https://github.com/SGENZO) 
