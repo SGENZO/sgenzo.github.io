@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Enze Hou / Personal Homepage"
 title_separator          : "-"
 name                     : &name "Enze Hou"
-description              : &description "PhD student from IAPCM"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Postdoctoral researcher at SUTD working on machine learning for computational physics."
 url                      : https://sgenzo.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,12 +23,12 @@ repository               : "SGENZO/sgenzo.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "enze-hou-portrait.jpg"
   name             : "Enze Hou"
   pronouns         : # example: "she/her"  
-  # bio              : "Short biography for the left-hand sidebar"
-  location         : "Beijing"
-  employer         : "IAPCM"
+  bio              : "Postdoctoral researcher"
+  location         : "Singapore"
+  employer         : "SUTD"
   email            : "houenze21@gscaep.ac.cn" 
 
   # Academic websites

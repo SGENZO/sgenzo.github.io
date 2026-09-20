@@ -1,0 +1,18 @@
+{% assign publications = site.publications | sort: 'date' | reverse %}
+{% assign publication_heading = include.heading | default: 'h3' %}
+{% assign has_corresponding_authors = false %}
+<ol class="publication-list">
+  {% for post in publications limit: include.limit %}
+    {% if post.authors contains '*' %}{% assign has_corresponding_authors = true %}{% endif %}
+    <li class="publication">
+      <div class="publication__date"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%Y' }}</time></div>
+      <article class="publication__body">
+        <p class="publication__venue">{{ post.venue }}{% if post.volume %} {{ post.volume }}{% if post.issue %}({{ post.issue }}){% endif %}{% endif %}{% if post.article_number or post.pages %}, {{ post.article_number | default: post.pages }}{% endif %}{% if post.venue == 'Preprint' %}<span class="publication__status">arXiv</span>{% endif %}</p>
+        <{{ publication_heading }} class="publication__title"><a href="{{ post.paperurl }}">{{ post.title }}<span class="external-arrow" aria-hidden="true"> ↗</span></a></{{ publication_heading }}>
+        <p class="publication__authors">{{ post.authors | escape | replace: 'Enze Hou', '<strong>Enze Hou</strong>' }}</p>
+        {% if post.preprinturl %}<p class="publication__links"><a href="{{ post.preprinturl }}">arXiv <span aria-hidden="true">↗</span></a></p>{% endif %}
+      </article>
+    </li>
+  {% endfor %}
+</ol>
+{% if has_corresponding_authors %}<p class="publication-note">* Corresponding author.</p>{% endif %}

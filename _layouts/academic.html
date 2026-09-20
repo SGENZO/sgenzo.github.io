@@ -1,0 +1,53 @@
+---
+layout: compress
+---
+{% include base_path %}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0, 2 }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include seo.html %}
+    <meta name="color-scheme" content="light dark">
+    <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+    <script src="{{ '/assets/js/academic.js' | relative_url }}" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-name" href="{{ '/' | relative_url }}">{{ site.author.name }}<span aria-hidden="true">.</span></a>
+        <nav aria-label="Main navigation">
+          <a href="{{ '/' | relative_url }}"{% if page.permalink == '/' %} aria-current="page"{% endif %}>About</a>
+          <a href="{{ '/#research' | relative_url }}">Research</a>
+          <a href="{{ '/publications/' | relative_url }}"{% if page.permalink == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
+          <a href="{{ '/cv/' | relative_url }}"{% if page.permalink == '/cv/' %} aria-current="page"{% endif %}>CV</a>
+          <button class="theme-toggle" type="button" aria-label="Switch to dark theme" hidden>
+            <svg class="theme-icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20.7 13.1A8.7 8.7 0 0 1 10.9 3.3 8.8 8.8 0 1 0 20.7 13.1Z"/></svg>
+            <svg class="theme-icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <main id="main" class="site-main" tabindex="-1">
+      {% if page.permalink == '/' %}
+        {{ content }}
+      {% else %}
+        <article class="academic-page">
+          <header class="page-heading">
+            <p class="eyebrow">{{ page.kicker | default: 'Academic profile' }}</p>
+            <h1>{{ page.title }}</h1>
+          </header>
+          <div class="academic-content">{{ content }}</div>
+        </article>
+      {% endif %}
+    </main>
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} <span class="footer-separator" aria-hidden="true">/</span> {{ site.author.employer }}, {{ site.author.location }}</p>
+        <p>Built with <a href="https://jekyllrb.com/">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">Academic Pages</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
