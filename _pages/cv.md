@@ -13,7 +13,8 @@ redirect_from:
 <p class="page-intro"><a class="button button--secondary" href="{{ '/assets/CV.pdf' | relative_url }}">Download curriculum vitae <span class="button__note">PDF</span></a></p>
 
 ## Current Appointment
-* Postdoctoral researcher, [Singapore University of Technology and Design (SUTD)](https://www.sutd.edu.sg/), Singapore.
+* Postdoctoral researcher, [Singapore University of Technology and Design (SUTD)](https://www.sutd.edu.sg/), Singapore, October 2026 – present. PI: Dario Poletti.
+* Email: [{{ site.author.email }}](mailto:{{ site.author.email }}).
 * Address: 8 Somapah Road, Singapore 487372.
 
 ## Education
@@ -23,7 +24,7 @@ redirect_from:
 
 
 ## Research Interests & Experience
-My research focuses on machine learning methods for multi-scale modeling, especially in quantum many-body physics and ultrafast dynamics.
+My research focuses on machine learning methods for multi-scale modeling, especially in quantum many-body physics and ultrafast dynamics. My interests also include quantum simulation and quantum computing.
 * Developed machine learning potentials to simulate dynamic mechanical response of materials under extreme conditions.
 * Proposed a neural network framework for solving the time-dependent Schrödinger equation in real space.
 * Familiar with deep learning techniques such as physics-informed neural networks (PINNs), graph neural networks (GNNs), and generative models. 
